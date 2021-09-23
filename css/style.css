@@ -125,7 +125,7 @@ h5 {
 /* Header */
 
 .upgrade {
-  width: 1336px;
+  width: 90%;
   height: 10%;
   background-color: #080b12;
   float: left;
@@ -162,4 +162,10 @@ h5 {
 .macro_area_2 {
   height: 10vh;
   background-color: rgb(10, 10, 167);
+}
+
+.row_2 {
+  background-color: tomato;
+  width: 50%;
+  height: 50px;
 }
