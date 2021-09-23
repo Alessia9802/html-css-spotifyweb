@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
@@ -23,20 +29,64 @@
         <!-- primo contenitore -->
         <div class="primo_contenitore">
           <div class="logo">
-            <img src="./img/logo.svg" alt="" />
+            <img class="spotify" src="./img/logo.svg" alt="logo_spotify" />
           </div>
           <div class="home_menu">
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Cerca</a></li>
-              <li><a href="#">La tua libreria</a></li>
+              <li class="border">
+                <a href="#"
+                  ><img class="icon" src="./img/home.svg" alt="icon_house" />
+                  Home</a
+                >
+              </li>
+              <li>
+                <a href="#">
+                  <img class="icon" src="./img/search.svg" alt="icon_search" />
+                  Cerca</a
+                >
+              </li>
+              <li>
+                <a href="#">
+                  <img
+                    class="icon"
+                    src="./img/libreria.svg"
+                    alt="icon_library"
+                  />
+                  La tua libreria</a
+                >
+              </li>
             </ul>
           </div>
-          <div class="playlist_menu"></div>
+          <div class="playlist_menu">
+            <h5>playlist</h5>
+            <ul>
+              <li>
+                <a href="#"
+                  ><i class="fas fa-plus-square fa-2x"></i> Crea Playlist</a
+                >
+              </li>
+              <li><a href="#">Nome Playlist</a></li>
+              <li><a href="#">Nome Playlist</a></li>
+              <li><a href="#">Nome Playlist</a></li>
+              <li><a href="#">Nome Playlist</a></li>
+              <li><a href="#">Nome Playlist</a></li>
+              <li><a href="#">Nome Playlist</a></li>
+              <li><a href="#">Nome Playlist</a></li>
+            </ul>
+          </div>
         </div>
         <!-- secondo contenitore -->
         <div class="secondo_contenitore">
-          <div class="user_name"></div>
+          <div class="user_name">
+            <div class="broke">
+              <img class="icon" src="./img/download.svg" alt="download_icon" />
+              <span>Installa app</span>
+            </div>
+            <div class="utente">
+              <img class="profile" src="./img/profile.svg" alt="profile_icon" />
+              <span class="name">John Doe</span>
+            </div>
+          </div>
         </div>
       </div>
       <!-- header upgrade -->
