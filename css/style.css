@@ -1,4 +1,4 @@
-/* Utiliy */
+/* Utility */
 
 * {
   box-sizing: border-box;
@@ -14,13 +14,31 @@ body {
 /* area principale */
 
 .macro_area_1 {
-  width: 100%;
-  height: calc (100vh - 10%);
+  height: calc(100vh - 10vh);
   background-color: blue;
 }
+
+/* barra laterale */
+
+.menu_laterale {
+  width: calc(100% - 85%);
+  height: calc(100vh - 10vh);
+  background-color: cornflowerblue;
+}
+
+/* header upgrade */
+
+.upgrade {
+  width: calc(100% - 10%);
+  height: calc(100vh - 10vh);
+  background-color: cyan;
+}
+
+/* ./ area principale */
 
 /* area footer */
 
 .macro_area_2 {
+  height: 10vh;
   background-color: rgb(10, 10, 167);
 }
