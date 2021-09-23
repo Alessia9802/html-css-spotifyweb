@@ -1,5 +1,26 @@
+/* Utiliy */
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+/* area principale */
+
+.macro_area_1 {
+  width: 100%;
+  height: calc (100vh - 10%);
+  background-color: blue;
+}
+
+/* area footer */
+
+.macro_area_2 {
+  background-color: rgb(10, 10, 167);
 }
