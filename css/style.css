@@ -67,6 +67,10 @@ h5 {
   padding-top: 1rem;
 }
 
+.fa-plus-square {
+  vertical-align: middle;
+}
+
 .home_menu > ul li a,
 .playlist_menu > ul li a {
   color: white;
@@ -118,13 +122,30 @@ h5 {
 
 /* /.barra laterale  */
 
+/* Header */
+
 .upgrade {
-  width: 1335px;
+  width: 1336px;
   height: 10%;
-  background-color: cyan;
+  background-color: #080b12;
   float: left;
   vertical-align: top;
+  position: relative;
 }
+
+.button {
+  text-transform: uppercase;
+  color: white;
+  position: absolute;
+  top: 15px;
+  right: 5px;
+  border: 1px solid white;
+  border-radius: 25px;
+  padding: 0.5rem 2rem;
+  font-size: 15px;
+}
+
+/* ./header */
 
 .main {
   width: 100%;
