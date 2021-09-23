@@ -33,6 +33,7 @@ body {
   background-color: #000000;
   float: left;
   position: relative;
+  color: #818181;
 }
 
 .spotify {
@@ -73,7 +74,7 @@ h5 {
 
 .home_menu > ul li a,
 .playlist_menu > ul li a {
-  color: white;
+  color: #818181;
   text-decoration: none;
   line-height: 30px;
   font-size: 14px;
@@ -91,7 +92,7 @@ h5 {
 }
 
 .user_name {
-  color: white;
+  color: #818181;
   font-size: 14px;
   position: absolute;
   bottom: 10px;
@@ -99,7 +100,7 @@ h5 {
 
 .broke {
   padding: 0.5rem;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #818181;
   width: 90%;
 }
 
@@ -117,6 +118,7 @@ h5 {
 }
 
 .name {
+  color: white;
   font-weight: 700;
 }
 
@@ -125,7 +127,7 @@ h5 {
 /* Header */
 
 .upgrade {
-  width: 90%;
+  width: calc(100% - 200px);
   height: 10%;
   background-color: #080b12;
   float: left;
@@ -150,7 +152,7 @@ h5 {
 .main {
   width: 100%;
   height: 100%;
-  background-color: rgb(63, 208, 252);
+  background-color: #141922;
   display: block;
   vertical-align: middle;
 }
@@ -161,11 +163,61 @@ h5 {
 
 .macro_area_2 {
   height: 10vh;
-  background-color: rgb(10, 10, 167);
+  background-color: #282828;
 }
 
 .row_2 {
-  background-color: tomato;
   width: 50%;
+  height: 100%;
+  float: left;
+  background-color: rgb(94, 94, 94);
+}
+
+.row_1,
+.row_3 {
+  width: 25%;
+  height: 100%;
+  float: left;
+  position: relative;
+  padding: 1rem;
+  color: #e5e5e5;
+}
+
+.sinister {
+  width: 10%;
+  float: left;
+  position: absolute;
+  left: 10px;
+  top: 15px;
+}
+
+.brano {
+  float: left;
+  position: absolute;
+  left: 60px;
+  font-size: 11px;
+}
+
+.sx {
+  font-weight: bold;
+}
+
+.foot_icons {
+  float: left;
+  position: absolute;
+  top: 25px;
+  padding-left: 180px;
+  vertical-align: middle;
+}
+
+.footer_ico {
+  float: left;
+  padding-left: 0.5rem;
+}
+
+.barra {
+  width: 200px;
   height: 50px;
+  color: gray;
+  float: left;
 }
