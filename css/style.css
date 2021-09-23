@@ -24,14 +24,25 @@ body {
   width: calc(100% - 85%);
   height: calc(100vh - 10vh);
   background-color: cornflowerblue;
+  display: inline-block;
 }
 
-/* header upgrade */
+/* /.barra laterale  */
 
 .upgrade {
-  width: calc(100% - 10%);
-  height: calc(100vh - 10vh);
+  width: 84%;
+  height: 10%;
   background-color: cyan;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.main {
+  width: 70%;
+  height: 50%;
+  background-color: rgb(63, 208, 252);
+  display: block;
+  vertical-align: middle;
 }
 
 /* ./ area principale */
