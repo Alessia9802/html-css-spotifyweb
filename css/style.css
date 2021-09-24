@@ -185,11 +185,13 @@ h5 {
   background-color: #141922;
   display: block;
   vertical-align: middle;
+  position: relative;
 }
 
 .menu_podcast {
   padding: 1rem;
-  padding-left: 250px;
+  position: absolute;
+  left: 20%;
 }
 
 .menu_podcast > ul li {
@@ -215,6 +217,55 @@ h5 {
   position: absolute;
   left: 30%;
   bottom: -5px;
+}
+
+/*************** Layout canzoni ************/
+
+/* Recently played */
+
+h2 {
+  color: white;
+  position: absolute;
+  top: 12%;
+  margin-left: 20px;
+}
+
+.row {
+  float: left;
+  width: 12%;
+  padding-right: 0.2rem;
+  padding-top: 8rem;
+  padding-left: 0.1rem;
+  margin-left: 20px;
+}
+
+.album img {
+  width: 100%;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.card {
+  position: absolute;
+  display: inline-block;
+}
+
+.description {
+  color: white;
+  text-align: center;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.subtitle {
+  color: #7d7f84;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 30px;
 }
 
 /* ./main */
