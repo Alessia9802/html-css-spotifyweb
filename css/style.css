@@ -34,6 +34,7 @@ body {
   float: left;
   position: relative;
   color: #818181;
+  font-weight: 600;
 }
 
 .spotify {
@@ -61,6 +62,10 @@ body {
   border-left: 3px solid #adff2f;
 }
 
+.home_menu > ul li a.white {
+  color: white;
+}
+
 h5 {
   text-transform: uppercase;
   color: white;
@@ -80,6 +85,14 @@ h5 {
   font-size: 14px;
 }
 
+.playlist_menu > ul li a:hover {
+  color: white;
+}
+
+.home_menu > ul li a:hover {
+  color: white;
+}
+
 .playlist_menu > ul {
   list-style: none;
   padding-top: 1rem;
@@ -88,6 +101,7 @@ h5 {
 /* secondo contenitore */
 
 .secondo_contenitore {
+  background-color: #000000;
   padding: 1rem;
 }
 
@@ -96,6 +110,8 @@ h5 {
   font-size: 14px;
   position: absolute;
   bottom: 10px;
+  background-color: black;
+  padding-top: 1rem;
 }
 
 .broke {
@@ -115,6 +131,11 @@ h5 {
   padding: 1px;
   width: 13%;
   vertical-align: middle;
+  margin-right: 0.5rem;
+}
+
+.app:hover {
+  color: white;
 }
 
 .name {
@@ -140,11 +161,16 @@ h5 {
   color: white;
   position: absolute;
   top: 15px;
-  right: 5px;
+  right: 25px;
   border: 1px solid white;
   border-radius: 25px;
   padding: 0.5rem 2rem;
   font-size: 15px;
+  transition: all 0.5s ease;
+}
+
+.button:hover {
+  transform: scale(1.1);
 }
 
 /* ./header */
@@ -171,6 +197,7 @@ h5 {
   height: 100%;
   float: left;
   background-color: rgb(94, 94, 94);
+  position: relative;
 }
 
 .row_1,
@@ -202,6 +229,58 @@ h5 {
   font-weight: bold;
 }
 
+/* colonna_2 */
+
+.icons_center {
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.fa-random,
+.fa-step-backward,
+.fa-play-circle,
+.fa-step-forward,
+.fa-redo {
+  padding-left: 1rem;
+}
+
+.fa-play-circle {
+  font-size: 25px;
+}
+
+.time_song {
+  font-size: 10px;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  top: 0px;
+  padding: 1rem;
+}
+
+.seconds {
+  position: absolute;
+  left: 10px;
+}
+
+.minutes {
+  position: absolute;
+  right: 10px;
+}
+
+.bar {
+  width: 150px;
+  height: 4px;
+  background-color: rgb(212, 102, 102);
+  border-radius: 10px;
+  position: absolute;
+  text-align: center;
+  display: inline-block;
+  margin-left: 0px;
+}
+
+/* colonna_3 */
+
 .foot_icons {
   float: left;
   position: absolute;
@@ -212,12 +291,25 @@ h5 {
 
 .footer_ico {
   float: left;
-  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+  padding-left: 0.1rem;
+  margin-left: 1rem;
 }
 
 .barra {
-  width: 200px;
-  height: 50px;
-  color: gray;
+  width: 150px;
+  height: 4px;
+  background-color: gray;
+  border-radius: 10px;
   float: left;
+  position: absolute;
+  top: 30px;
+  left: 150px;
+}
+
+.bar_1 {
+  background-color: white;
+  width: 50px;
+  height: 4px;
+  border-radius: 10px;
 }
