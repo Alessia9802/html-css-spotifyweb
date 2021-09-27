@@ -8,7 +8,7 @@
 
 body {
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
   font-family: "Montserrat", sans-serif;
   overflow: hidden;
 }
@@ -29,7 +29,7 @@ a,
 /* area principale */
 
 .macro_area_1 {
-  height: calc(100vh - 10vh);
+  height: calc(100vh - 80px);
   background-color: blue;
 }
 
@@ -37,7 +37,7 @@ a,
 
 .menu_laterale {
   width: 200px;
-  height: calc(100vh - 10vh);
+  height: calc(100vh - 80px);
   background-color: #000000;
   float: left;
   position: relative;
@@ -80,6 +80,11 @@ h5 {
   color: white;
   padding-left: 1rem;
   padding-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.fa-plus-square {
+  padding-left: 1rem;
 }
 
 .playlist_menu {
@@ -89,7 +94,7 @@ h5 {
 
 .list {
   overflow-y: auto;
-  height: calc(100% - 50px);
+  height: calc(100% - 340px);
 }
 
 .fa-plus-square {
@@ -169,7 +174,7 @@ h5 {
 
 .upgrade {
   width: calc(100% - 200px);
-  height: 10%;
+  height: 70px;
   background-color: #080b12;
   float: left;
   vertical-align: top;
@@ -199,8 +204,7 @@ h5 {
 
 .main {
   width: calc(100% - 200px);
-  /* height: calc(100% - 10%); */
-  height: 100%;
+  height: calc(100% - 70px);
   float: left;
   background-color: #141922;
   vertical-align: middle;
@@ -375,7 +379,7 @@ h3 {
 /* area footer */
 
 .macro_area_2 {
-  height: 10vh;
+  height: 80px;
   width: 100%;
   background-color: #282828;
   position: fixed;
@@ -579,4 +583,66 @@ h3 {
   border-radius: 50%;
   margin-left: 25px;
   display: flex;
+}
+
+/* Modalità Responsive */
+
+/* Versione 1200px */
+
+@media screen and (max-width: 1200px) {
+  .main {
+    overflow: scroll;
+    height: 100%;
+  }
+
+  .menu_podcast {
+    padding: 1rem;
+    position: absolute;
+    left: 30%;
+  }
+
+  .menu_podcast > ul li {
+    font-size: 12px;
+  }
+
+  .row {
+    width: 100%;
+    height: 230px;
+    padding-left: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    /* background-color: blanchedalmond; */
+  }
+
+  .row_1 {
+    width: 100%;
+    height: 170px;
+    padding-left: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    /* background-color: burlywood; */
+  }
+
+  .row_2 {
+    width: 100%;
+    height: 190px;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    /* background-color: cadetblue; */
+  }
+
+  .colonna {
+    width: 120px;
+    height: 200px;
+    margin-right: 1rem;
+    padding-top: 1rem;
+    /*  background-color: coral; */
+  }
+
+  .colonna > .img .album {
+    width: 120px;
+    height: 120px;
+  }
 }
