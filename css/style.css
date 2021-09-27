@@ -487,6 +487,7 @@ h3 {
   border-radius: 50px;
   align-content: center;
   align-items: center;
+  position: relative;
 }
 
 .short {
@@ -494,8 +495,8 @@ h3 {
   height: 5px;
   background-color: #c1c1c1;
   border-radius: 10px;
-  position: relative;
   align-items: center;
+  position: relative;
 }
 
 .short:hover {
@@ -503,19 +504,18 @@ h3 {
   height: 5px;
   background-color: #adff2f;
   border-radius: 10px;
-  position: relative;
   align-items: center;
 }
 
 .short:hover .circle {
   position: absolute;
+  bottom: -3px;
   width: 10px;
   height: 10px;
   background-color: white;
   border-radius: 50%;
   margin-left: 95px;
   display: flex;
-  align-items: center;
 }
 
 /* colonna_3 */
@@ -550,4 +550,24 @@ h3 {
   width: 30px;
   height: 4px;
   border-radius: 10px;
+  position: relative;
+}
+
+.bar_1:hover {
+  background-color: #adff2f;
+  width: 30px;
+  height: 4px;
+  border-radius: 10px;
+}
+
+.bar_1:hover .circle_2 {
+  background-color: white;
+  position: absolute;
+  bottom: -3px;
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+  margin-left: 25px;
+  display: flex;
 }
